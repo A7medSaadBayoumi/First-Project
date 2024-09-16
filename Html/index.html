@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="master.Css" />
+    <title>Document</title>
+</head>
+<body>
+    <header>
+    <div class="logo"><h1 class="lo">Aflamkoo</h1></div>
+    <nav>
+        <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Countct</a></li>
+        </ul>
+    </nav>
+    <div class="search-box">
+        <input type="text" placeholder="search" />
+        <button><i class="fas fa-search"></i></button>
+    </div>
+    <nav class="sign in">
+        <ul>
+            <li><a href="login.html" class="login-icon"><i class="fas fa-sign-in-alt"> sign</i></a></li>
+            <i class="fas fa-heart"></i>
+        </ul>
+    </nav>
+    <div class="language-selector"></div>
+        <i class="fas fs-language" id="languageButton">En</i>
+        <div id="languageMenu" class="language-menu">
+            <button class="language-option" onclick="changeLanguage('en')">English</button>
+            <button class="language-option" onclick="changeLanguage('ar')">العربية</button>
+        </div>
+    </div>
+    <div class="icons">
+        <i class="user"></i>
+        <i class="heart"></i>
+    </div>
+    </header>
+<div class="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="R (1).jpeg" alt="weladrezk">
+        </div>
+        <div class="carousel-item">
+            <img src="R.jpeg" alt="boha">
+        </div>
+        <div class="carousel-item">
+            <img src="xمراتي.jpeg" alt="xmratiy">
+        </div>
+        <div class="carousel-item">
+            <img src="تاج.jpg" alt="tag">
+        </div>
+        <div class="carousel-item">
+            <img src="شقو.jpeg" alt="shakoo">
+        </div>
+    </div>
+    <div class="carousel-controls">
+        <button class="prev" title="pr"><i class="fas fa-chevron-left"></i> </button>
+        <button class="next" title="ne"><i class="fas fa-chevron-right"></i> </button>
+    </div>
+
+</div>
+
+<div class="arabicMovice">
+    <h1 class="partition">Arabic Movice</h1>
+    <div class="card-container">
+        <div class="card">
+            <img src="R (1).jpeg" alt="weladrezk">
+            <h3>ولاد رزق 3</h3>
+            <div class="movie-summary">الأبطال: أحمد عز، عمرو يوسف، أحمد الفيشاوي، محمد ممدوح، كريم قاسم</div>
+            <button class="watch-film"><i class="fas fa-play"></i></button>
+            <button class="downloud-film"><i class="fas fa-download"></i></button>
+            <button class="like-film" id="likebut"><i class="fas fa-thumbs-up" id="likeIcon"></i></button>
+            <button class="heart" id="likeButton">
+                <i class="fas fa-heart" id="heartIcon"></i>
+            </button>
+        </div>
+        <div class="card">
+            <img src="R.jpeg" alt="boha">
+            <h3>بوحة</h3>
+            <div class="movie-summary">الأبطال: محمد سعد، مي عز الدين، حسن حسني</div>
+            <button class="watch-film"><i class="fas fa-play"></i></button>
+            <button class="downloud-film"><i class="fas fa-download"></i></button>
+            <button class="like-film" id="likebut"><i class="fas fa-thumbs-up" id="likeIcon"></i></button>
+            <button class="heart" id="likeButton">
+                <i class="fas fa-heart" id="heartIcon"></i>
+            </button>
+        </div>
+        <div class="card">
+            <img src="تاج.jpg" alt="tag">
+            <h3>تاج</h3>
+            <div class="movie-summary">الأبطال: تامر حسني، دينا الشربيني، عمرو عبد الجليل، ماجد الكدواني</div>
+            <button class="watch-film"><i class="fas fa-play"></i></button>
+            <button class="downloud-film"><i class="fas fa-download"></i></button>
+            <button class="like-film" id="likebut"><i class="fas fa-thumbs-up" id="likeIcon"></i></button>
+            <button class="heart" id="likeButton">
+                <i class="fas fa-heart" id="heartIcon"></i>
+            </button>
+        </div>
+        <div class="card">
+            <img src="شقو.jpeg" alt="shakoo">
+            <h3>شقو</h3>
+            <div class="movie-summary">الأبطال: عمرو يوسف، محمد ممدوح، دينا الشربيني، أحمد الفيشاوي، أمينة خليل</div>
+            <button class="watch-film"><i class="fas fa-play"></i></button>
+            <button class="downloud-film"><i class="fas fa-download"></i></button>
+            <button class="like-film" id="likebut"><i class="fas fa-thumbs-up" id="likeIcon"></i></button>
+            <button class="heart" id="likeButton">
+                <i class="fas fa-heart" id="heartIcon"></i>
+            </button>
+        </div>
+            <div class="card">
+                <img src="xمراتي.jpeg" alt="xمراتي">
+                <h3>مراتيx</h3>
+                <div class="movie-summary">الأبطال: أحمد حلمي، منة شلبي</div>
+                <button class="watch-film"><i class="fas fa-play"></i></button>
+                <button class="downloud-film"><i class="fas fa-download"></i></button>
+                <button class="like-film" id="likebut"><i class="fas fa-thumbs-up" id="likeIcon"></i></button>
+                <button class="heart" id="likeButton">
+                    <i class="fas fa-heart" id="heartIcon"></i>
+                </button>
+            </div>
+            <div class="card">
+                <img src="م.jpg" alt="مراتي">
+                <h3>مراتي وزوجتي</h3>
+                <div class="movie-summary">الأبطال: رامز جلال، شيري عادل</div>
+                <button class="watch-film"><i class="fas fa-play"></i></button>
+                <button class="downloud-film"><i class="fas fa-download"></i></button>
+                <button class="like-film" id="likebut"><i class="fas fa-thumbs-up" id="likeIcon"></i></button>
+                <button class="heart" id="likeButton">
+                    <i class="fas fa-heart" id="heartIcon"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Foreign Movice -->
+<div class="foreignMovice">
+    <h1 class="partition">Foreign Movice</h1>
+    <div class="card-container">
+        <div class="card">
+            <img src="chapel.jpg" alt="chapel">
+            <h3>chapel</h3>
+            <div class="movie-summary">ملخص فيلم...</div>
+            <button class="watch-film"><i class="fas fa-play"></i></button>
+            <button class="downloud-film"><i class="fas fa-download"></i></button>
+            <button class="like-film" id="likebut"><i class="fas fa-thumbs-up" id="likeIcon"></i></button>
+            <button class="heart" id="likeButton">
+                <i class="fas fa-heart" id="heartIcon"></i>
+            </button>
+        </div>
+        <div class="card">
+            <img src="damaged.jpeg" alt="damaged">
+            <h3>damaged</h3>
+            <div class="movie-summary">ملخص فيلم  هنا...</div>
+            <button class="watch-film"><i class="fas fa-play"></i></button>
+            <button class="downloud-film"><i class="fas fa-download"></i></button>
+            <button class="like-film" id="likebut"><i class="fas fa-thumbs-up" id="likeIcon"></i></button>
+            <button class="heart" id="likeButton">
+                <i class="fas fa-heart" id="heartIcon"></i>
+            </button>
+        </div>
+        <div class="card">
+            <img src="firecracker.jpg" alt="firecracker">
+            <h3>firecracker</h3>
+            <div class="movie-summary">ملخص فيلم ولاد رزق 3 هنا...</div>
+            <button class="watch-film"><i class="fas fa-play"></i></button>
+            <button class="downloud-film"><i class="fas fa-download"></i></button>
+            <button class="like-film" id="likebut"><i class="fas fa-thumbs-up" id="likeIcon"></i></button>
+            <button class="heart" id="likeButton">
+                <i class="fas fa-heart" id="heartIcon"></i>
+            </button>
+        </div>
+        <div class="card">
+            <img src="firecracker.jpg" alt="firecracker">
+            <h3>firecracker</h3>
+            <div class="movie-summary">ملخص فيلم هنا...</div>
+            <button class="watch-film"><i class="fas fa-play"></i></button>
+            <button class="downloud-film"><i class="fas fa-download"></i></button>
+            <button class="like-film" id="likebut"><i class="fas fa-thumbs-up" id="likeIcon"></i></button>
+            <button class="heart" id="likeButton">
+                <i class="fas fa-heart" id="heartIcon"></i>
+            </button>
+        </div>
+            <div class="card">
+                <img src="goat life.jpg" alt="goat life">
+                <h3>goat life</h3>
+                <div class="movie-summary">ملخص فيلم هنا...</div>
+                <button class="watch-film"><i class="fas fa-play"></i></button>
+                <button class="downloud-film"><i class="fas fa-download"></i></button>
+                <button class="like-film" id="likebut"><i class="fas fa-thumbs-up" id="likeIcon"></i></button>
+                <button class="heart" id="likeButton">
+                    <i class="fas fa-heart" id="heartIcon"></i>
+                </button>
+            </div>
+            <div class="card">
+                <img src="punish evil.jpg" alt="punish evil">
+                <h3>punish evil</h3>
+                <div class="movie-summary">ملخص فيلم هنا...</div>
+                <button class="watch-film"><i class="fas fa-play"></i></button>
+                <button class="downloud-film"><i class="fas fa-download"></i></button>
+                <button class="like-film" id="likebut"><i class="fas fa-thumbs-up" id="likeIcon"></i></button>
+                <button class="heart" id="likeButton">
+                    <i class="fas fa-heart" id="heartIcon"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--  Series -->
+<div class=" series">
+    <h1 class="partition">Series</h1>
+    <div class="card-container">
+        <div class="card">
+            <img src="الاختيار 3.webp" alt="الاختيار 3">
+            <h3>الاختيار 3</h3>
+            <div class="movie-summary">ملخص فيلم هنا...</div>
+            <button class="watch-film"><i class="fas fa-play"></i></button>
+            <button class="downloud-film"><i class="fas fa-download"></i></button>
+                <button class="like-film" id="likebut"><i class="fas fa-thumbs-up" id="likeIcon"></i></button>
+            <button class="heart" id="likeButton">
+                <i class="fas fa-heart" id="heartIcon"></i>
+            </button>
+        </div>
+        <div class="card">
+            <img src="البيت بيتي.jpg" alt="البيت بيتي">
+            <h3>البيت بيتي</h3>
+            <div class="movie-summary">ملخص فيلم  هنا...</div>
+            <button class="watch-film"><i class="fas fa-play"></i></button>
+            <button class="downloud-film"><i class="fas fa-download"></i></button>
+                <button class="like-film" id="likebut"><i class="fas fa-thumbs-up" id="likeIcon"></i></button>
+            <button class="heart" id="likeButton"></button>
+                <i class="fas fa-heart" id="heartIcon"></i>
+            </button>
+        </div>
+        <div class="card">
+            <img src="اللعبة.jpg" alt="اللعبة">
+            <h3>اللعبة</h3>
+            <div class="movie-summary">ملخص فيلم هنا...</div>
+            <button class="watch-film"><i class="fas fa-play"></i></button>
+            <button class="downloud-film"><i class="fas fa-download"></i></button>
+                <button class="like-film" id="likebut"><i class="fas fa-thumbs-up" id="likeIcon"></i></button>
+            <button class="heart" id="likeButton">
+                <i class="fas fa-heart" id="heartIcon"></i>
+            </button>
+        </div>
+        <div class="card">
+            <img src="المداح 3.jpeg" alt="المداح 3">
+            <h3>المداح 3</h3>
+            <div class="movie-summary">ملخص فيلم هنا...</div>
+            <button class="watch-film"><i class="fas fa-play"></i></button>
+            <button class="downloud-film"><i class="fas fa-download"></i></button>
+                <button class="like-film" id="likebut"><i class="fas fa-thumbs-up" id="likeIcon"></i></button>
+            <button class="heart" id="likeButton">
+                <i class="fas fa-heart" id="heartIcon"></i>
+            </button>
+        </div>
+            <div class="card">
+                <img src="رمضان كريم.jpg" alt="رمضان كريم">
+                <h3>رمضان كريم</h3>
+                <div class="movie-summary">ملخص فيلم هنا...</div>
+                <button class="watch-film"><i class="fas fa-play"></i></button>
+                <button class="downloud-film"><i class="fas fa-download"></i></button>
+                <button class="like-film" id="likebut"><i class="fas fa-thumbs-up" id="likeIcon"></i></button>
+                <button class="heart" id="likeButton">
+                    <i class="fas fa-heart" id="heartIcon"></i>
+                </button>
+            </div>
+            <div class="card">
+                <img src="سلم علي اخواتك.jpeg" alt="سلم علي اخواتك">
+                <h3> سلم علي اخواتك</h3>
+                <div class="movie-summary">ملخص فيلم هنا...</div>
+                <button class="watch-film"><i class="fas fa-play"></i></button>
+                <button class="downloud-film"><i class="fas fa-download"></i></button>
+                <button class="like-film" id="likebut"><i class="fas fa-thumbs-up" id="likeIcon"></i></button>
+                <button class="heart" id="likeButton">
+                    <i class="fas fa-heart" id="heartIcon"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <div class="movie-player">
+        <div class="server-list">
+            <h2>Download servers</h2>
+            <ul>
+                <li class="server"><a href="#">server Aflamkoo</a></li>
+                <li class="server"><a href="#">server 1</a></li>
+                <li class="server"><a href="#">server 2</a></li>
+                <li class="server"><a href="#">server 3</a></li>
+            </ul>
+        </div>
+        <div class="player-content">
+            <div class="video-player">
+                <video controls>
+                    <source src="path_to_your_video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="quality-controls">
+                    <label for="quality">Operating Quality:</label>
+                    <select class="op" id="quality">
+                        <option value="480p">480p</option>
+                        <option value="720p">720p</option>
+                        <option value="1080p">1080p</option>
+                        <option value="4k">4k</option>
+                    </select>
+                </div>
+            </div>
+            <div class="movie-description">
+                <h2>Film Title</h2>
+                <p>Synopsis.</p>
+            </div>
+        </div>
+    </div>
+    <button id="scrollToTopBtn" class="scrollToTopBtn">
+        ↑
+    </button>
+
+<footer class="footer">
+    <div class="social-media-section">
+        <h3>Follow Us</h3>
+        <div class="social-media-icons">
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://x.com" target="_blank"><i class="fab fa-x-twitter"></i></a>
+            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://tiktok.com" target="_blank"><i class="fab fa-tiktok"></i></a>
+        </div>
+    </div>
+
+    <div class="app-links">
+        <div class="ios">
+            <a href="https://www.apple.com/app-store/" target="_blank">
+                <img src="ios.png" alt="Download on the App Store">
+                <div class="app-label">Download</div>
+            </a>
+            <div class="qr-code">
+                <img src="ios-qr.jpeg" alt="QR Code for iOS">
+            </div>
+        </div>
+        <div class="google">
+            <a href="https://play.google.com/store" target="_blank">
+                <img src="googel.png" alt="Get it on Google Play">
+                <div class="app-label">Download</div>
+            </a>
+            <div class="qr-code">
+                <img src="google-qr.png" alt="QR Code for Google Play">
+            </div>
+        </div>
+        <div class="huawei">
+            <a href="https://store.huawei.com/" target="_blank">
+                <img src="huawei.png" alt="Get it on Huawei Store">
+                <div class="app-label">Download</div>
+            </a>
+            <div class="qr-code">
+                <img src="qr-huawei.png" alt="QR Code forHuawei Store">
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright"></div>
+        <p>&copy; 2024 Your Company. All rights reserved.</p>
+    </div>
+</footer>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
